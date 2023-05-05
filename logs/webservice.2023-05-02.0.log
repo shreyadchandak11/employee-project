@@ -1,0 +1,139 @@
+2023-05-02 02:27:45,763 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h48m5s114ms722µs600ns).
+2023-05-02 03:25:46,548 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(503)-127.0.0.1] Application shutdown requested.
+2023-05-02 03:25:46,698 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(503)-127.0.0.1] Pausing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:25:46,699 INFO o.a.c.c.StandardService[RMI TCP Connection(503)-127.0.0.1] Stopping service [Tomcat]
+2023-05-02 03:25:46,748 INFO o.a.c.c.C.[.[.[/][RMI TCP Connection(503)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-02 03:25:46,824 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(503)-127.0.0.1] Stopping ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:25:46,888 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(503)-127.0.0.1] Destroying ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:25:46,966 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[RMI TCP Connection(503)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:25:47,011 INFO c.z.h.HikariDataSource[RMI TCP Connection(503)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-05-02 03:25:47,030 INFO c.z.h.HikariDataSource[RMI TCP Connection(503)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-05-02 03:26:54,796 INFO o.h.v.i.u.Version[background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 03:26:55,028 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Starting CapstoneEmployeeProjectApplication using Java 17.0.6 with PID 10620 (C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project\bin\main started by skps1 in C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project)
+2023-05-02 03:26:55,031 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 03:26:57,445 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 03:26:57,588 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces.
+2023-05-02 03:26:58,921 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat initialized with port(s): 8080 (https)
+2023-05-02 03:26:58,943 INFO o.a.c.h.Http11NioProtocol[main] Initializing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:26:58,951 INFO o.a.c.c.StandardService[main] Starting service [Tomcat]
+2023-05-02 03:26:58,952 INFO o.a.c.c.StandardEngine[main] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-02 03:26:59,164 INFO o.a.c.c.C.[.[.[/][main] Initializing Spring embedded WebApplicationContext
+2023-05-02 03:26:59,164 INFO o.s.b.w.s.c.ServletWebServerApplicationContext[main] Root WebApplicationContext: initialization completed in 4016 ms
+2023-05-02 03:26:59,606 INFO o.h.j.i.u.LogHelper[main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 03:26:59,754 INFO o.h.Version[main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-02 03:27:00,542 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Starting...
+2023-05-02 03:27:01,259 INFO c.z.h.p.HikariPool[main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@334b392d
+2023-05-02 03:27:01,264 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Start completed.
+2023-05-02 03:27:01,987 INFO SQL dialect[main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-02 03:27:04,124 INFO o.h.e.t.j.p.i.JtaPlatformInitiator[main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 03:27:04,162 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:27:05,495 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 03:27:06,223 INFO o.a.c.h.Http11NioProtocol[main] Starting ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:27:06,388 INFO o.a.t.u.n.N.certificate[main] Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/skps1/Downloads/capstone-employee-project%20(2)/capstone-employee-project/bin/main/capstoneemployee.jks] using alias [capstone-https] and with trust store [null]
+2023-05-02 03:27:06,423 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat started on port(s): 8080 (https) with context path ''
+2023-05-02 03:27:06,438 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Started CapstoneEmployeeProjectApplication in 12.456 seconds (process running for 14.295)
+2023-05-02 03:31:48,475 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(8)-127.0.0.1] Application shutdown requested.
+2023-05-02 03:31:48,499 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(8)-127.0.0.1] Pausing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:31:48,499 INFO o.a.c.c.StandardService[RMI TCP Connection(8)-127.0.0.1] Stopping service [Tomcat]
+2023-05-02 03:31:48,508 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(8)-127.0.0.1] Stopping ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:31:48,512 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(8)-127.0.0.1] Destroying ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:31:48,516 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[RMI TCP Connection(8)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:31:48,519 INFO c.z.h.HikariDataSource[RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-05-02 03:31:48,563 INFO c.z.h.HikariDataSource[RMI TCP Connection(8)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-05-02 03:33:25,247 ERROR o.s.b.SpringApplication[main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.hdfc.capstone.employee.CapstoneEmployeeProjectApplication.main(CapstoneEmployeeProjectApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-02 03:33:46,663 INFO o.h.v.i.u.Version[background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 03:33:46,755 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Starting CapstoneEmployeeProjectApplication using Java 17.0.6 with PID 2316 (C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project\bin\main started by skps1 in C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project)
+2023-05-02 03:33:46,757 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 03:33:47,947 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 03:33:48,075 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interfaces.
+2023-05-02 03:33:49,138 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat initialized with port(s): 8080 (https)
+2023-05-02 03:33:49,160 INFO o.a.c.h.Http11NioProtocol[main] Initializing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:33:49,171 INFO o.a.c.c.StandardService[main] Starting service [Tomcat]
+2023-05-02 03:33:49,173 INFO o.a.c.c.StandardEngine[main] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-02 03:33:49,381 INFO o.a.c.c.C.[.[.[/][main] Initializing Spring embedded WebApplicationContext
+2023-05-02 03:33:49,382 INFO o.s.b.w.s.c.ServletWebServerApplicationContext[main] Root WebApplicationContext: initialization completed in 2540 ms
+2023-05-02 03:33:49,709 INFO o.h.j.i.u.LogHelper[main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 03:33:49,825 INFO o.h.Version[main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-02 03:33:50,530 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Starting...
+2023-05-02 03:33:51,283 INFO c.z.h.p.HikariPool[main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c011855
+2023-05-02 03:33:51,287 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Start completed.
+2023-05-02 03:33:51,741 INFO SQL dialect[main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-02 03:33:53,608 INFO o.h.e.t.j.p.i.JtaPlatformInitiator[main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 03:33:53,628 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:33:54,831 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 03:33:55,632 INFO o.a.c.h.Http11NioProtocol[main] Starting ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:33:55,826 INFO o.a.t.u.n.N.certificate[main] Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/skps1/Downloads/capstone-employee-project%20(2)/capstone-employee-project/bin/main/capstoneemployee.jks] using alias [capstone-https] and with trust store [null]
+2023-05-02 03:33:55,868 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat started on port(s): 8080 (https) with context path ''
+2023-05-02 03:33:55,887 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Started CapstoneEmployeeProjectApplication in 9.975 seconds (process running for 11.823)
+2023-05-02 03:50:39,039 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2023-05-02 03:50:39,063 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(21)-127.0.0.1] Pausing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:50:39,064 INFO o.a.c.c.StandardService[RMI TCP Connection(21)-127.0.0.1] Stopping service [Tomcat]
+2023-05-02 03:50:39,077 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(21)-127.0.0.1] Stopping ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:50:39,082 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(21)-127.0.0.1] Destroying ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:50:39,086 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:50:39,089 INFO c.z.h.HikariDataSource[RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-05-02 03:50:39,118 INFO c.z.h.HikariDataSource[RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-05-02 03:50:43,118 INFO o.h.v.i.u.Version[background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 03:50:43,216 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Starting CapstoneEmployeeProjectApplication using Java 17.0.6 with PID 1796 (C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project\bin\main started by skps1 in C:\Users\skps1\Downloads\capstone-employee-project (2)\capstone-employee-project)
+2023-05-02 03:50:43,218 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 03:50:44,495 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 03:50:44,630 INFO o.s.d.r.c.RepositoryConfigurationDelegate[main] Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces.
+2023-05-02 03:50:45,921 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat initialized with port(s): 8080 (https)
+2023-05-02 03:50:45,945 INFO o.a.c.h.Http11NioProtocol[main] Initializing ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:50:45,957 INFO o.a.c.c.StandardService[main] Starting service [Tomcat]
+2023-05-02 03:50:45,958 INFO o.a.c.c.StandardEngine[main] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-02 03:50:46,301 INFO o.a.c.c.C.[.[.[/][main] Initializing Spring embedded WebApplicationContext
+2023-05-02 03:50:46,303 INFO o.s.b.w.s.c.ServletWebServerApplicationContext[main] Root WebApplicationContext: initialization completed in 2977 ms
+2023-05-02 03:50:46,649 INFO o.h.j.i.u.LogHelper[main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 03:50:46,812 INFO o.h.Version[main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-02 03:50:47,853 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Starting...
+2023-05-02 03:50:48,670 INFO c.z.h.p.HikariPool[main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@334b392d
+2023-05-02 03:50:48,675 INFO c.z.h.HikariDataSource[main] HikariPool-1 - Start completed.
+2023-05-02 03:50:49,095 INFO SQL dialect[main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-02 03:50:51,595 INFO o.h.e.t.j.p.i.JtaPlatformInitiator[main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 03:50:51,619 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 03:50:52,938 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 03:50:53,663 INFO o.a.c.h.Http11NioProtocol[main] Starting ProtocolHandler ["https-jsse-nio-8080"]
+2023-05-02 03:50:53,826 INFO o.a.t.u.n.N.certificate[main] Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/skps1/Downloads/capstone-employee-project%20(2)/capstone-employee-project/bin/main/capstoneemployee.jks] using alias [capstone-https] and with trust store [null]
+2023-05-02 03:50:53,867 INFO o.s.b.w.e.t.TomcatWebServer[main] Tomcat started on port(s): 8080 (https) with context path ''
+2023-05-02 03:50:53,893 INFO c.h.c.e.CapstoneEmployeeProjectApplication[main] Started CapstoneEmployeeProjectApplication in 11.626 seconds (process running for 13.607)
+2023-05-02 09:13:50,003 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m54s865ms434µs300ns).
+2023-05-02 10:17:55,763 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m1s594ms853µs700ns).
+2023-05-02 10:49:21,353 INFO o.a.c.c.C.[.[.[/][https-jsse-nio-8080-exec-8] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-02 10:49:21,354 INFO o.s.w.s.DispatcherServlet[https-jsse-nio-8080-exec-8] Initializing Servlet 'dispatcherServlet'
+2023-05-02 10:49:21,438 INFO o.s.w.s.DispatcherServlet[https-jsse-nio-8080-exec-8] Completed initialization in 83 ms
+2023-05-02 10:49:21,895 WARN o.s.c.LocalVariableTableParameterNameDiscoverer[https-jsse-nio-8080-exec-8] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.hdfc.capstone.employee.controller.EmployeeController
+2023-05-02 13:29:00,232 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h3s509ms272µs100ns).
+2023-05-02 16:44:30,717 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s383ms718µs800ns).

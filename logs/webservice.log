@@ -1,0 +1,16 @@
+2023-05-05 07:34:04,165 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h48m32s520ms986µs).
+2023-05-05 07:34:53,342 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s109ms990µs900ns).
+2023-05-05 17:23:41,443 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h21m22s200ms93µs500ns).
+2023-05-05 17:24:27,947 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s24ms335µs200ns).
+2023-05-05 19:18:57,086 WARN c.z.h.p.HikariPool[HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m57s560ms799µs400ns).
+2023-05-05 19:54:41,520 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(971)-127.0.0.1] Application shutdown requested.
+2023-05-05 19:54:41,520 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(970)-127.0.0.1] Application shutdown requested.
+2023-05-05 19:54:47,680 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[RMI TCP Connection(972)-127.0.0.1] Application shutdown requested.
+2023-05-05 19:54:52,279 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(971)-127.0.0.1] Pausing ProtocolHandler ["https-jsse-nio-8989"]
+2023-05-05 19:54:52,332 INFO o.a.c.c.StandardService[RMI TCP Connection(971)-127.0.0.1] Stopping service [Tomcat]
+2023-05-05 19:54:53,786 INFO o.a.c.c.C.[.[.[/][RMI TCP Connection(971)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-05 19:54:58,915 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(971)-127.0.0.1] Stopping ProtocolHandler ["https-jsse-nio-8989"]
+2023-05-05 19:55:00,171 INFO o.a.c.h.Http11NioProtocol[RMI TCP Connection(971)-127.0.0.1] Destroying ProtocolHandler ["https-jsse-nio-8989"]
+2023-05-05 19:55:01,248 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean[RMI TCP Connection(971)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-05 19:55:03,056 INFO c.z.h.HikariDataSource[RMI TCP Connection(971)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-05-05 19:55:03,819 INFO c.z.h.HikariDataSource[RMI TCP Connection(971)-127.0.0.1] HikariPool-1 - Shutdown completed.
